@@ -1,6 +1,23 @@
-# InfiniteTalk API Skill for RunAPI
+<p align="center">
+  <a href="https://github.com/runapi-ai/infinitetalk">
+    <h3 align="center">InfiniteTalk API Skill for RunAPI</h3>
+  </a>
+</p>
+
+<p align="center">
+  Install this agent skill, inspect InfiniteTalk fields, then run jobs through the RunAPI CLI.
+</p>
+
+<p align="center">
+  <a href="https://runapi.ai/models/infinitetalk.md"><strong>Model Reference</strong></a> · <a href="https://skills.sh/runapi-ai/infinitetalk"><strong>Install Skill</strong></a> · <a href="https://github.com/runapi-ai/cli"><strong>CLI</strong></a> · <a href="https://github.com/runapi-ai/infinitetalk-sdk"><strong>SDK</strong></a>
+</p>
+
+<div align="center">
 
 [![skills.sh](https://skills.sh/b/runapi-ai/infinitetalk)](https://skills.sh/runapi-ai/infinitetalk)
+
+</div>
+<br/>
 
 Generate lip-sync video from audio and a portrait image with InfiniteTalk. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate InfiniteTalk through RunAPI.
 
