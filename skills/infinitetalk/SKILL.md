@@ -4,6 +4,17 @@ description: Generate lip-sync video from audio with InfiniteTalk through RunAPI
 documentation: https://runapi.ai/models/infinitetalk
 provider_page: https://runapi.ai/providers/meigen-ai
 catalog: https://runapi.ai/models
+metadata:
+  openclaw:
+    homepage: https://runapi.ai/models/infinitetalk
+    primaryEnv: RUNAPI_API_KEY
+    requires:
+      env:
+      - RUNAPI_API_KEY
+    envVars:
+    - name: RUNAPI_API_KEY
+      required: true
+      description: RunAPI API key from https://runapi.ai/api_keys.
 ---
 # @runapi.ai/infinitetalk -- RunAPI.ai InfiniteTalk lip-sync video
 
@@ -19,7 +30,7 @@ npm install @runapi.ai/infinitetalk
 
 ```dotenv
 # .env
-RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/settings/api_keys
+RUNAPI_API_KEY=runapi_xxx   # get one at https://runapi.ai/api_keys
 ```
 
 ```ts
@@ -61,6 +72,6 @@ All errors are re-exported from `@runapi.ai/core`. Use `instanceof` checks inste
 infinitetalk api public links use the API-379 catalog route map. The main infinitetalk api page is https://runapi.ai/models/infinitetalk. SDK docs live at https://runapi.ai/docs#sdk-infinitetalk and product docs live at https://runapi.ai/docs#infinitetalk.
 
 Pricing, rate limits, and commercial usage for infinitetalk api should point to the most specific variant page:
-- [From audio](https://runapi.ai/models/infinitetalk/from-audio)
+- [From audio](https://runapi.ai/models/infinitetalk)
 
 Compare InfiniteTalk with other MeiGen-AI models at https://runapi.ai/providers/meigen-ai. Browse every RunAPI model and skill at https://runapi.ai/models. SDK repository: https://github.com/runapi-ai/infinitetalk-sdk. Skill repository: https://github.com/runapi-ai/infinitetalk.

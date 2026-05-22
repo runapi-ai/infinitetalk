@@ -1,5 +1,7 @@
 # InfiniteTalk API Skill for RunAPI
 
+[![skills.sh](https://skills.sh/b/runapi-ai/infinitetalk)](https://skills.sh/runapi-ai/infinitetalk)
+
 Generate lip-sync video from audio and a portrait image with InfiniteTalk. This skill helps Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents integrate InfiniteTalk through RunAPI.
 
 The canonical agent file is `skills/infinitetalk/SKILL.md`.
@@ -32,13 +34,13 @@ const url = result.videos[0].url;
 - Product docs: https://runapi.ai/docs#infinitetalk
 - SDK docs: https://runapi.ai/docs#sdk-infinitetalk
 - SDK repository: https://github.com/runapi-ai/infinitetalk-sdk
-- Pricing and rate limits: https://runapi.ai/models/infinitetalk/from-audio
+- Pricing and rate limits: https://runapi.ai/models/infinitetalk
 - Provider comparison: https://runapi.ai/providers/meigen-ai
 - Browse all RunAPI models and skills: https://runapi.ai/models
 
 ## Variants
 
-- [From audio](https://runapi.ai/models/infinitetalk/from-audio)
+- [From audio](https://runapi.ai/models/infinitetalk)
 
 ## Agent rules
 
